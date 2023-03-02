@@ -1,7 +1,19 @@
+@font-face {
+    font-family: 'Inter-Black';
+    src: url('./assets/font/Inter-Black.ttf');
+}
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/font/Inter-Bold.ttf');
+}
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Inter-Bold';
 }
+
+
 
 .App {
     width: 100%;
